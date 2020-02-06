@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<!-- it is the start of the html -->
+  <head>
+    <!-- It shows on the header of the webpage -->
+    <title>index</title>
+    <!-- the title i named for my website -->
+    <style>
+    /* CSS goes here */
+
+    body {
+      /* the css file for body style */
+      background-image: url("https://images.unsplash.com/photo-1564951415682-4466397f7707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+      /* it is how to insert image in the background */
+      background-position: center;
+      /* position the backgroun in the center of the page */
+      background-size: cover;
+      /* position the image to cover the whole page */
+      text-align: left;
+      /* align the text to the left */
+      font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+      /* the font family i chose for the webpage */
+    }
+    /* the end of body css profile */
+    .song{
+      /* the css profile for song class */
+      width: 50%;
+      /* set the words in the 50% center of tha page */
+      display: block;
+      /* set the display method for the words in block */
+      margin: auto;
+      /* set the words to the center of the black*/
+      padding: 50px;
+      /* defines the margin of the black from the text*/
+      border: 4px solid #FFFAF0;
+      /* set the color thickness of the border of the box */
+      box-sizing: border-box;
+      border-style:dashed;
+      /* set the style of the border of the box */
+      border-radius: 30px;
+      /* add a curve edge to the box */
+      box-shadow: 0px 2px 5px #808080;
+      /* add a shadow to the outside of the box */
+      line-height: 1.2;
+      /* the height for every line */
+      text-transform: capitalize;
+      /* change all the texts into capital letters */
+      position: relative;
+      height:auto;
+      /* set the height of the words into auto adjusting mode */
+      animation-name: song;
+      /* give the animation a name */
+      animation-duration: 4s;
+      /* the time duration of the animation */
+      animation-iteration-count: infinite;
+      /* let the animation iteration infinite times */
+      animation-direction: alternate-reverse;
+      /* let the animation run from forward to backward and iterate the process */
+    }
+    /* the end of song css profile */
+
+    @keyframes song {
+      /* song animation profile starts from here */
+      from {color:#2EA9DF;
+      /* set the original color of the text */
+      border-color:#FFFFF0;
+      /* set the original color of the border */
+      text-shadow: 0px 0px 10px #FFFAF0;
+      /* set the original showdow to the texts */
+      font-size: 40px;
+      /* set the original font size */
+      }
+      to {color:#FFFFF0;
+        /* set the color of the words after changing*/
+      border-color:#2EA9DF;
+      /* set the border color after changing */
+      text-shadow: 0px 0px 10px #808080;
+      /* set the shadow of the text after changing */
+      font-size: 45px;
+      /* set the font size after changing */
+      }
+    }
+    .sparks{
+      /* the css for the spark picture */
+      width:50%;
+      /* the width of spark photo shows */
+      display: block;
+      /* the display method for the spark photo */
+      margin: auto;
+      /* set the margin of the block */
+      text-align: center;
+      /* make it align in the center of the page */
+    }
+    /* the end of spark photo css profile */
+
+
+    a {
+      /* the start of url css profile */
+      text-shadow:-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+      /* a outer line effect to the text */
+      font-size:40px;
+      /* the size of the url text */
+      text-decoration: none;
+      /* delete the underline of the text */
+      animation-name: song;
+      /* link the url to the animation song */
+      animation-duration: 4s;
+      /* the duration of the animation */
+      animation-iteration-count: infinite;
+      /* set the animation iteration time to infinite*/
+      animation-direction: alternate-reverse;
+      /* set the animation direction back and force */
+    }
+
+    .song:hover{
+      /* set the appearance when curse hover onto it */
+      font-style: oblique;
+      /* set the words into oblique style */
+      transform: scale(1.1,1.1);
+      /* make it bigger */
+      text-transform: uppercase;
+      /* change it into uppaercase for the first letter of the words */
+    }
+
+    a:hover{
+        /* set the appearance when curse hover onto it */
+      text-shadow:-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+      /* set the text shadow to the url text when hovering over it */
+      text-transform: capitalize;
+      /* change the text into caplitalize the first letter of the url */
+      font-style: normal;
+      /* change the font style into normal */
+      text-decoration: none;
+      /* delete the underline of text*/
+    }
+  /* CSS STOPS here */
+    </style>
+  </head>
+<!-- HTML goes here! -->
+  <body>
+    <!-- the body of the webpage, the important massage part of the webpage -->
+    <div class="sparks">
+      <!-- set a class for the picture -->
+      <img src="https://i.ya-webdesign.com/images/can-you-print-png-files-at-walmart-7.png" style="width:128px;height:128px;">
+<!-- the spark image from linked from the web -->
+    </div>
+    <!-- the end of the sparks class -->
+    <div class="song">
+      <!-- set a class for all the words in the page -->
+    <p>"Hi Mom!</p>
+    <!-- the hi mom text -->
+
+    <p>Ah ah ah ah ah ah…</p>
+    <!-- the ahahahah texts -->
+
+    <p>So hold me, Mom,</p>
+    <!-- the hold on me mom text -->
+
+    <p>In your long <a href="https://zhumingcheng697.github.io/web-nyu-idm/here-come-the-planes">arms</a>"</p>
+    <!-- the ultralink of the words and web that links to it -->
+  </div>
+  <!-- the end of song class -->
+
+  </body>
+  <!-- the end of body part of the webpage -->
+</html>
+<!-- HTML STOPS here! -->
