@@ -38,7 +38,7 @@ body {
 
 .my-fun-class {
   width: 40%;
-  border: 2px solid forestgreen;
+  border: 4px dotted yellow;
   display: block;
   margin: auto;
 }
@@ -60,13 +60,11 @@ img:last-child{
   width 50%
   bordor-radius : 8px;
   filter: drop-shadow(8px 8px 10px gray);
+  padding: 3em;
 }
 /* level 17: a selector that chooses every object of the same property as the last element of a type. One thinf to notice, if the element is the last element of the body, it also counts. Here I choose every image element in the last place of a category. */
 img:first-of-type{
   filter: hue-rotate(90deg);
-}
-/* level 20: select the first elements within a certain element. It searches every elements including the body paragraph. Here I utilized it to select the dog and the mosqueto. */
-img {
-  width: 40%;
   padding: 2em;
 }
+/* level 20: select the first elements within a certain element. It searches every elements including the body paragraph. Here I utilized it to select the dog and the mosqueto. */
