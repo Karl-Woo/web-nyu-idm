@@ -30,6 +30,9 @@ body {
   background-color: blue;
   text-color: white;
   font-size: 1em;
+  width: 40%;
+  display: block;
+  margin: auto;
 }
 /* level 3: select items with the same the id names. In my code I select the every file that has the id name "cat". It can also add to a type selector by adding it in the front. */
 
@@ -39,6 +42,12 @@ body {
   display: block;
   margin: auto;
 }
+
+p#dog, .my-fun-class{
+  text-decoration: underline;
+  text-shadow: 5px 5px red;
+}
+/* level 9: a selector to combine two distinct element. Any two types of file could be combined to make changes together. Here I combine a paragraph with a class */
 
 img {
   width: 40%;
