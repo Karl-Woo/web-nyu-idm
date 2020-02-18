@@ -55,7 +55,12 @@ p#dog, .my-fun-class{
   width:60%;
 }
 /* level 13: general sibling selector that selects all the identical elements that follow another element. It is kind of tricky to distinguish the element that follows another. The first is the host and the second is the follower. */
-
+img:last-child{
+  width 50%
+  bordor-radius : 8px;
+  filter: drop-shadow(8px 8px 10px gray);
+}
+/* level 17: a selector that chooses every object of the same property as the last element of a type. One thinf to notice, if the element is the last element of the body, it also counts. Here I choose every image element in the last place of a category. */
 img {
   width: 40%;
   padding: 2em;
