@@ -12,8 +12,7 @@ body {
 /* THE END of default helpful basic CSS to include. EDIT the stuff BELOW this line*/
 
 @font-face {
-  font-family: 'violet';
-  src: url('./fonts/VioletSans-Regular.woff') format('woff');
+  src: url('./fonts/VioletSans-Regular.woff') format('woff'); */
   font-weight: normal;
   font-style: normal;
 }
@@ -23,7 +22,16 @@ body {
   color: yellow;
   text-align: center;
   font-size: 2em;
+  font-family: 'Lacquer', sans-serif;
 }
+
+#cat{
+  text-align: left;
+  background-color: blue;
+  text-color: white;
+  font-size: 1em;
+}
+/* level 3: select items with the same the id names. In my code I select the every file that has the id name "cat". It can also add to a type selector by adding it in the front. */
 
 .my-fun-class {
   width: 40%;
