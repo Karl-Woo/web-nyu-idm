@@ -26,7 +26,6 @@ body {
 }
 
 #cat{
-  text-align: left;
   background-color: blue;
   text-color: white;
   font-size: 1em;
@@ -48,6 +47,14 @@ p#dog, .my-fun-class{
   text-shadow: 5px 5px red;
 }
 /* level 9: a selector to combine two distinct element. Any two types of file could be combined to make changes together. Here I combine a paragraph with a class */
+
+.my-fun-class ~ p {
+  text-align: left;
+  display: block;
+  margin: auto;
+  width:60%;
+}
+/* level 13: general sibling selector that selects all the identical elements that follow another element. It is kind of tricky to distinguish the element that follows another. The first is the host and the second is the follower. */
 
 img {
   width: 40%;
