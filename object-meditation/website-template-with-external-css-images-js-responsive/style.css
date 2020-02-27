@@ -1,0 +1,102 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  src: url('./fonts/VioletSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-image: repeating-linear-gradient(#F4A7B9, #FEDFE1 10%, #F8C3CD 20%, #F4A7B9 25%),url("assets/white-background.jpg");
+  background-blend-mode:color;
+  color: #0B1013;
+  text-align: center;
+  font-family: 'La Belle Aurore', serif;
+  font-family: 'Liu Jian Mao Cao', serif;
+}
+
+.English {
+  width:80%;
+  display: block;
+  margin: auto;
+  font-family: 'La Belle Aurore', serif;
+  text-align: right;
+  font-size: 3em;
+  transition: width 3s;
+}
+
+img{
+  width:70px;
+  height:auto;
+  opacity: 0%;
+  animation: emerge 3s infinite;
+  animation-direction: alternate-reverse;
+}
+
+.splash{
+  width:60%;
+  display: block;
+  margin: auto;
+  justify-content: space-around;
+  align-content:space-between;
+}
+
+@keyframes emerge {
+  from {opacity: 0%;width:40px}
+  to {opacity: 100%;width:100px}
+}
+
+.Chinese {
+  width: 7%;
+  display: block;
+  margin: auto;
+  vertical-align: center;
+  font-family: 'Liu Jian Mao Cao', serif;
+  flex-direction: column;
+  font-size:4em;
+  position: 0px, 100px;
+  transition: font-size 2s;
+}
+
+.English:hover{
+  width: 60%;
+  color:#211E55;
+}
+
+.Chinese:hover{
+  font-size:5em;
+  color:#211E55;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+     color:#622954;
+  }
+
+@media only screen and (min-width: 600px) and (max-width: 800px){
+    body {
+       color:#211E55;
+    }
+
+@media only screen and (min-width: 800px) and (max-width: 1000px){
+        body {
+           color:#26453D;
+        }
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px){
+        body {
+            color:#5B622E;
+        }
+@media only screen and (min-width: 1200px) and (max-width: 1400px){
+        body {
+          color:#855B32;
+        }
+}
