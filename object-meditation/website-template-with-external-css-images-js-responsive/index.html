@@ -3,30 +3,31 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
   <title>Handwriting Studio</title>
-  <link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore|Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore|Cinzel|Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="grid">
-      <div class="Chinese">
-      <a href="chinese.html">书<br />
+  <video autoplay muted loop id="myVideo">
+    <source src="assets/inkdrop.mp4" type="video/mp4">
+  </video>
+  <p id="note">DESIGNED BY KARL WU, SPRING 2020</p>
+  <div class="grid">
+    <div class="Chinese" id="Chinese">
+      <a href="prelude.html">书<br />
         法<br />
         自<br />
         习<br />
         室</a>
-     </div>
-    <div class="splash">
-      <img src="assets/splash_1.png">
-      <img src="assets/splash_1.png">
-      <img src="assets/splash_1.png">
     </div>
     <div class="English">
-      <p>Handwriting Studio</p>
+      <p id="English">Handwriting Studio</p>
     </div>
   </div>
-    <script type="text/javascript" src="script.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script language="JavaScript" src="main.js"></script>
 </body>
 
 </html>
