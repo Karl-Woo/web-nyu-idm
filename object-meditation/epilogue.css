@@ -15,69 +15,13 @@ body {
   font-style: normal;
 }
 
-#info {
-  position: fixed;
-  display:block;
-  margin: auto;
-  padding-top: 150px;
-  padding-left: 200px;
-  text-align: left;
-  font-size: 50px;
-  color: white;
-  font-family: 'Dancing Script', cursive;
-}
-
-input{
-  border-style:solid;
-  border-color: white;
-  border-width: medium;
-  background-color: black;
-  width:80%;
-  padding: 5px 20px;
-  margin: 8px 0;
-  color:white;
-  font-family: 'Dancing Script', cursive;
-  font-size: 30px;
-}
-
-button {
-  border-style: solid;
-   border-color: white;
-   border-width: medium;
-   background-color: black;
-   font-size: 30px;
-   font-family: 'Dancing Script', cursive;
-   color:white;
-   padding: 5px 20px;
-   margin: 8px 0;
-}
 
 button:hover{
   cursor:pointer;
   background-color: gray;
 }
 
-#sa{
-  position: fixed;
-  display: none;
-  background-color: none;
-  margin-top: 580px;
-  right:43.5%;
-}
 
-#newchpt{
-  font-size: 50px;
-  font-family: Cinzel, serif;
-  font-weight: lighter;
-  color:white;
-  text-shadow:none;
-  position: fixed;
-  display: none;
-  justify-content: center;
-  align-content: flex-end;
-  width: 100%;
-  padding-top: 150px;
-}
 
 #note {
   font-size: 1em;
@@ -100,4 +44,181 @@ button:hover{
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  #info {
+    position: fixed;
+    display:block;
+    margin: auto;
+    padding-top: 150px;
+    padding-left: 200px;
+    text-align: left;
+    font-size: 50px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  input{
+    border-style:solid;
+    border-color: white;
+    border-width: medium;
+    background-color: black;
+    width:80%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+  }
+
+  button {
+    border-style: solid;
+     border-color: white;
+     border-width: medium;
+     background-color: black;
+     font-size: 30px;
+     font-family: 'Dancing Script', cursive;
+     color:white;
+     padding: 5px 20px;
+     margin: 8px 0;
+  }
+  #newchpt{
+    font-size: 50px;
+    font-family: Cinzel, serif;
+    font-weight: lighter;
+    color:white;
+    text-shadow:none;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-content: flex-end;
+    width: 100%;
+    padding-top: 150px;
+  }
+  #sa{
+    position: fixed;
+    display: none;
+    background-color: none;
+    margin-top: 580px;
+    right:43.5%;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 1024px) {
+  #info {
+    position: fixed;
+    display:block;
+    margin: auto;
+    padding-top: 150px;
+    padding-left: 150px;
+    text-align: left;
+    font-size: 50px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  input{
+    border-style:solid;
+    border-color: white;
+    border-width: medium;
+    background-color: black;
+    width:80%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+  }
+
+  button {
+    border-style: solid;
+     border-color: white;
+     border-width: medium;
+     background-color: black;
+     font-size: 30px;
+     font-family: 'Dancing Script', cursive;
+     color:white;
+     padding: 5px 20px;
+     margin: 8px 0;
+  }
+  #newchpt{
+    font-size: 50px;
+    font-family: Cinzel, serif;
+    font-weight: lighter;
+    color:white;
+    text-shadow:none;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-content: flex-end;
+    width: 100%;
+    padding-top: 150px;
+  }
+  #sa{
+    position: fixed;
+    display: none;
+    background-color: none;
+    margin-top: 580px;
+    right:43.5%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  #info {
+    position: fixed;
+    display:block;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  input{
+    border-style:solid;
+    border-color: white;
+    border-width: medium;
+    background-color: black;
+    width:75%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+  }
+
+  button {
+    border-style: solid;
+     border-color: white;
+     border-width: medium;
+     background-color: black;
+     font-size: 20px;
+     font-family: 'Dancing Script', cursive;
+     color:white;
+     padding: 5px 20px;
+     margin: 8px 0;
+  }
+  #newchpt{
+    font-size: 30px;
+    font-family: Cinzel, serif;
+    font-weight: lighter;
+    color:white;
+    text-shadow:none;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-content: flex-end;
+    width: 100%;
+    padding-top: 150px;
+  }
+  #sa{
+    position: fixed;
+    display: none;
+    background-color: none;
+    margin-top: 580px;
+    right:35%;
+  }
 }

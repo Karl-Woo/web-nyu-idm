@@ -1,0 +1,93 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  background-size: cover;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  src: url('./fonts/VioletSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#note {
+  font-family: Cinzel, serif;
+  font-weight: lighter;
+  color:white;
+  text-shadow:none;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  width: 100%;
+  padding-top: 640px;
+}
+
+#words {
+  display: flex;
+  justify-content: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  color:white;
+  text-shadow:none;
+  position: fixed;
+  width: 100%;
+  padding-top: 30px;
+}
+
+
+button:hover{
+  cursor:pointer;
+  background-color: gray;
+}
+
+@media only screen and (min-width: 1024px) {
+  button {
+     position:fixed;
+     border-style: solid;
+     border-color: white;
+     border-width: medium;
+     background-color: black;
+     font-size: 30px;
+     font-family: 'Dancing Script', cursive;
+     color:white;
+     padding: 5px 20px;
+     margin: 540px 46%;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 1024px) {
+  button {
+     position:fixed;
+     border-style: solid;
+     border-color: white;
+     border-width: medium;
+     background-color: black;
+     font-size: 30px;
+     font-family: 'Dancing Script', cursive;
+     color:white;
+     padding: 5px 20px;
+     margin: 540px 46%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  button {
+     position:fixed;
+     border-style: solid;
+     border-color: white;
+     border-width: medium;
+     background-color: black;
+     font-size: 20px;
+     font-family: 'Dancing Script', cursive;
+     color:white;
+     padding: 5px 20px;
+     margin: 560px 42%;
+  }
+}

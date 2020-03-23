@@ -54,6 +54,7 @@ a:visited {
   grid-row: 2/3;
   font-family: 'Dancing Script', cursive;
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
   text-align: right;
   font-size: 80px;
@@ -65,6 +66,7 @@ a:visited {
   grid-row: 4/5;
   font-family: 'Dancing Script', cursive;
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
   text-align: right;
   font-size: 40px;
@@ -82,7 +84,20 @@ a:visited {
   cursor:wait;
 }
 
-@media only screen and (min-width: 600px) {
+#note {
+  font-family: Cinzel, serif;
+  font-weight: lighter;
+  color:white;
+  text-shadow:none;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  width: 100%;
+  padding-top: 640px;
+}
+
+@media only screen and (min-width: 1024px) {
   .text1 {
     font-size: 60px;
   }
@@ -105,20 +120,30 @@ a:visited {
   }
 }
 
-#note {
-  font-family: Cinzel, serif;
-  font-weight: lighter;
-  color:white;
-  text-shadow:none;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-content: flex-end;
-  width: 100%;
-  padding-top: 640px;
+@media only screen and (max-width: 1024px) and (min-width: 414px) {
+  .text1 {
+    font-size: 55px;
+  }
+
+  .text2 {
+    font-size: 35px;
+  }
+
+ .head{
+   font-size:75px;
+   padding-bottom:55px;
+ }
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 414px) {
   .text1 {
     font-size: 35px;
   }
