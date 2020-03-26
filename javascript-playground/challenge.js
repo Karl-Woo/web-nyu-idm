@@ -45,7 +45,7 @@ let text1="";
 
 for(i=0;i<colors.length;i++){
   console.log(colors[i]);
-  text1 += text1[i] + "<br>";
+  text1 += colors[i] + "<br>";
 }
 
 
