@@ -21,3 +21,17 @@ let arrayAsString = namesArray.join(', ')
 $('#name').html(namesArray[n]);
 
 $('#names').html(arrayAsString);
+
+let sortedNames = namesArray.sort();
+console.log(sortedNames);
+
+let text="";
+
+for (i=0; i<namesArray.length; i++){
+  text += namesArray[i] + i + "<br>";
+}
+
+
+
+
+$("#listNames").html(text);
