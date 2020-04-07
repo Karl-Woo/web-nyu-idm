@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Github Change",
+  "version": "1.0",
+  "description": "This extensions alters the look and content of a facebook page.",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://facebook.com/*",
+        "https://facebook.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+      "images/rainbow.png"
+  ]
+}

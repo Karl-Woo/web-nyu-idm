@@ -1,0 +1,15 @@
+﻿{
+  "manifest_version": 2,
+    "version": "1.0",
+  "name": "Wiki Beautify",
+  "description": "This extension creates a different look for wikipedia.",
+  "page_action": {
+    "default_icon": "joker.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://en.wikipedia.org/*","https://en.wikipedia.org/*"],
+      "js": ["content.js"]
+    }
+  ]
+  }
