@@ -1,0 +1,21 @@
+{
+  "name": "Safety Mask",
+  "description": "A Mask that keep you company and care for you during the Corona time",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["alarms", "notifications", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Stay safe, keep healthy",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "mask16.png",
+    "32": "mask32.png",
+    "48": "mask48.png",
+    "128": "mask128.png"
+  }
+}

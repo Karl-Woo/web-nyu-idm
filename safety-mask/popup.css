@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  background-color: #0B1013;
+  font-size: 15px;
+  font-weight: normal;
+  color: white;
+}
+
+input{
+    border-style:solid;
+    border-color: white;
+    border-width: medium;
+    background-color: #0B1013;
+    padding:0px 0px;
+    margin: 5px;
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+  }
+
+#globeImage {
+  width: 100px;
+  margin: 5px;
+}
+
+#globeImage:hover{
+  filter: drop-shadow(0px 0px 4px #81C7D4);
+}
+
+button {
+  border-style: solid;
+  border-color: white;
+  border-width: medium;
+  background-color: #0B1013;
+  font-size: 15px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+  color: white;
+  padding:0px 30px;
+  margin: 10px 0px;
+}
+
+button:hover {
+  background-color: #2E5C6E;
+  cursor:pointer;
+  color:white;
+  filter: drop-shadow(0px 0px 4px #81C7D4);
+}
