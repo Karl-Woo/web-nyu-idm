@@ -5,6 +5,7 @@ body {
   font-size: 15px;
   font-weight: normal;
   color: white;
+  width: 140px;
 }
 
 input{
@@ -13,10 +14,11 @@ input{
     border-width: medium;
     background-color: #0B1013;
     padding:0px 0px;
-    margin: 5px;
+    margin: 10px 0px;
     color:white;
     font-family: 'Roboto Slab', serif;
     font-size: 15px;
+    width: 90%;
   }
 
 #globeImage {
@@ -39,6 +41,7 @@ button {
   color: white;
   padding:0px 30px;
   margin: 10px 0px;
+  width: 90%;
 }
 
 button:hover {

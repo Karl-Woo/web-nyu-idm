@@ -3,7 +3,7 @@
   "description": "A Mask that keep you company and care for you during the Corona time",
   "version": "1.0",
   "manifest_version": 2,
-  "permissions": ["alarms", "notifications", "storage"],
+  "permissions": ["alarms", "notifications", "storage", "tabs"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false

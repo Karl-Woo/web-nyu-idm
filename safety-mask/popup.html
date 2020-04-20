@@ -6,21 +6,16 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   </head>
   <body>
-      <a href="https://news.google.com/covid19/map?hl=en-US&gl=US&ceid=US:en">
+      <a href="https://news.google.com/covid19/map?hl=en-US&gl=US&ceid=US:en" id="map">
         <img src='./globe.png' id='globeImage'>
       </a>
       <div id="info">
       <p>How Things Are In</p>
-      <input id="input_text" type="text" placeholder="State Abbr.">
-      <br>
+      <input id="state" type="text" placeholder="State Abbr."><br>
       <button id='search'>Search</button>
       </div>
       <button id='healthyTip'>Healthy Tip</button>
-      <!-- <button id='15min' value='15'>15 Minutes</button>
-      <button id='30min' value='30'>30 Minutes</button>
-      <button id='cancelAlarm'>Cancel Alarm</button> -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <button id='news'>News</button>
   <script language="JavaScript" src="popup.js"></script>
-  <meta charset="utf-8">
   </body>
 </html>

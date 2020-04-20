@@ -1,19 +1,4 @@
-chrome.alarms.onAlarm.addListener(function() {
-  chrome.browserAction.setBadgeText({text: ''});
-  chrome.notifications.create({
-      type:     'basic',
-      iconUrl:  'stay_hydrated.png',
-      title:    'Time to Hydrate',
-      message:  'Everyday I\'m Guzzlin\'!',
-      buttons: [
-        {title: 'Keep it Flowing.'}
-      ],
-      priority: 0});
-});
-
 chrome.notifications.onButtonClicked.addListener(function() {
-  chrome.storage.sync.get(['minutes'], function(item) {
-    chrome.browserAction.setBadgeText({text: 'ON'});
-    chrome.alarms.create({delayInMinutes: item.minutes});
-  });
+  var location ='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public';
+  chrome.tabs.create({active: true, url: location});
 });
